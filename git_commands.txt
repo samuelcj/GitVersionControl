@@ -8,4 +8,19 @@ Here are commands utilized in git version control.
 
 3. git status: This tells you your branch, what has changed and the whole state.
 
-4.  
+4. To have your remot repo added to your local repo
+=> git remote add origin https://gitlab.com/samuelcj310/my-project.git
+
+5. To change branch
+=> git branch -M main
+
+6. To add files that are untracked
+=> git add <file name> | git add . | git add -A
+
+7. To commit changes.
+=> git commit -m <commit message>
+
+8. To remove a file from commited files
+=> git rm --cached <file name>
+
+9. 
