@@ -26,5 +26,13 @@ Here are commands utilized in git version control.
 9. To see local repository history
 => git log
 
-10. gg
+10. To rename a branch
+=> git branch -m <name>
 
+11. To create a new local repositoy
+=> git init
+
+12. To add your username for tracking of commit, push and pull.
+=> git config --global user.name <Your Name>
+
+13. 
