@@ -23,4 +23,7 @@ Here are commands utilized in git version control.
 8. To remove a file from commited files
 => git rm --cached <file name>
 
-9. 
+9. To see local repository history
+=> git log
+
+10. 
