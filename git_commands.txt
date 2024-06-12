@@ -26,4 +26,5 @@ Here are commands utilized in git version control.
 9. To see local repository history
 => git log
 
-10. 
+10. gg
+
