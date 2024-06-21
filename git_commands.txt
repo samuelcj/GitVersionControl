@@ -40,3 +40,5 @@ Here are commands utilized in git version control.
 
 14. To set the local branch as the branch on remote
 => git push --set-upstream origin <branch name>
+
+15. git add | git commit | git push
