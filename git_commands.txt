@@ -45,5 +45,3 @@ Here are commands utilized in git version control.
 
 16. To delete a branch
 => git branch -d <branch name>
-
-17. 
