@@ -41,7 +41,10 @@ Here are commands utilized in git version control.
 14. To set the local branch as the branch on remote
 => git push --set-upstream origin <branch name>
 
-15. git add | git commit | git push
-
-16. To delete a branch
+15. To delete a branch
 => git branch -d <branch name>
+
+16. To update a branch when there are other updates not in your local. you use Rebase (-r)
+=> git push -r
+
+17.  
