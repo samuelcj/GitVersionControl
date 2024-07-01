@@ -17,7 +17,7 @@ Here are commands utilized in git version control.
 6. To add files that are untracked
 => git add <file name> | git add . | git add -A
 
-7. To commit changes.
+7. To commit changes.      (HEAD in git simply means the last commit)
 => git commit -m <commit message>
 
 8. To remove a file from commited files
@@ -70,6 +70,30 @@ Other available options can be:
 21. To save work in progress for a brnch and save for later. So we can easily checkout and return back to work.
 => git statch >>>>> to save changes in progress
 => git statch pop >>>>>>>> to retrieve the saved changes.
+
+22. Going back in history.
+=> git log >>>>>>>>> shows our commit history
+=> git checkout <commit hash> >>>>>> to go back to that commit state in time
+
+23. To revert a git commit and delete the changes from previous commit still present on the local before push to remote
+=> git reset --hard HEAD~n    >>> where n= how many commits you want to undo. usually 1. and HEAD means that we are referring to most recent commit
+
+24. To  rever a git commit but not delete the changes made. i.e we can still see modified before the commit was made.
+=> git reset HEAD~1   OR  => git reset --soft HEAD~1
+
+25. To merge a new commit into an old commit. i.e creating a commit inside an already previous last one.
+=> git commit --amend
+
+26. To revert a commit that has already been pushed to the remote repository. We combine two commands
+	1. We delete it locally
+=> git reset --hard HEAD~1
+	2. Then we push it to the remote with a force
+=> git push --force
+
+27. To not delete a previous commit but just overide it we use the overide commit. It is a re-verse kind of commit
+=> git revert <commit hash>    >>>>>>>>>> Then you push to the remote so it takes effect.
+
+28. 
 
 
  
