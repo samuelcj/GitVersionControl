@@ -67,6 +67,10 @@ Other available options can be:
 20. For files already being tracked this wont have effect. So to remove them from cached files we run the cache command below
 => git rm -r --cached <file or folder names>
 
+21. To save work in progress for a brnch and save for later. So we can easily checkout and return back to work.
+=> git statch >>>>> to save changes in progress
+=> git statch pop >>>>>>>> to retrieve the saved changes.
+
 
  
 
