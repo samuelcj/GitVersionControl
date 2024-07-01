@@ -61,3 +61,11 @@ Other available options can be:
 	hint: "git add/rm <conflicted_files>", then run "git rebase --continue".
 	hint: You can instead skip this commit: run "git rebase --skip".
 	hint: To abort and get back to the state before "git rebase", run "git rebase --abort".
+
+19. The .gitignorefile ==> used to specify files or folders that should not be included in the remote repo from your local push. eg build folders, .idea folder, node modules,etc. Just by listing them in the file:  filename; foldername/*
+
+
+
+ 
+
+
