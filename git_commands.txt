@@ -47,4 +47,4 @@ Here are commands utilized in git version control.
 16. To update a branch when there are other updates not in your local. you use Rebase (-r)
 => git push -r
 
-17. from web IDE
+17. from web IDE and Bash
