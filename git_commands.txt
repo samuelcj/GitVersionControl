@@ -64,6 +64,8 @@ Other available options can be:
 
 19. The .gitignorefile ==> used to specify files or folders that should not be included in the remote repo from your local push. eg build folders, .idea folder, node modules,etc. Just by listing them in the file:  filename; foldername/*
 
+20. For files already being tracked this wont have effect. So to remove them from cached files we run the cache command below
+=> git rm -r --cached <file or folder names>
 
 
  
