@@ -47,4 +47,17 @@ Here are commands utilized in git version control.
 16. To update a branch when there are other updates not in your local. you use Rebase (-r)
 => git push -r
 
-17. from web IDE and Bash
+17. from web IDE and Bash: When there are changes from different source on the same line or file or part of code. It causes a MERGE CONFLICT that needs to be fixed using
+=> git push -r ##(rebase)
+=> then edid the marked conflict session then resolve conflict (This is done in editor)
+
+then:
+18. To continue after merge conflict has been resolved.
+=> git rebase --continue
+
+Other available options can be:
+
+	Resolve all conflicts manually, mark them as resolved with
+	hint: "git add/rm <conflicted_files>", then run "git rebase --continue".
+	hint: You can instead skip this commit: run "git rebase --skip".
+	hint: To abort and get back to the state before "git rebase", run "git rebase --abort".
