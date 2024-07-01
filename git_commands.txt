@@ -93,9 +93,7 @@ Other available options can be:
 27. To not delete a previous commit but just overide it we use the overide commit. It is a re-verse kind of commit
 => git revert <commit hash>    >>>>>>>>>> Then you push to the remote so it takes effect.
 
-28. 
+28. To merge commits so that two branches eitheir main or not can be in sync. Just like merge request. We use:
+=> git merge <origin/source branch name>   >>>>>>>>> Note, you are to run this command from the destination branch
 
-
- 
-
-
+29. 
