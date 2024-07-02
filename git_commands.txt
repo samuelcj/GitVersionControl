@@ -96,4 +96,9 @@ Other available options can be:
 28. To merge commits so that two branches eitheir main or not can be in sync. Just like merge request. We use:
 => git merge <origin/source branch name>   >>>>>>>>> Note, you are to run this command from the destination branch
 
-29. 
+29. To clone a repo now with http using token we use this command.
+=> git clone https://<user name>:<authentication token>@github.com/<repo name>.git
+
+eg: git clone https://samuelcj:ghp_2aU******dlsfhlwfdjjf@github.com/BuildToolsandPackageManagers.git 
+
+
