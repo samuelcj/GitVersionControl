@@ -101,4 +101,8 @@ Other available options can be:
 
 eg: git clone https://samuelcj:ghp_2aU******dlsfhlwfdjjf@github.com/BuildToolsandPackageManagers.git 
 
+30. To have a repo inside a repo. We need to add the repo as a submodule, so that git can track internal changes and sync them.
+=> git submodule add <url of the internal repo> <internal or sub-repo name>
+e.g:  git submodule add git@github.com:samuelcj/GitVersionControl.git GitVersionControl
+
 
