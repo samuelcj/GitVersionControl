@@ -105,4 +105,7 @@ eg: git clone https://samuelcj:ghp_2aU******dlsfhlwfdjjf@github.com/BuildToolsan
 => git submodule add <url of the internal repo> <internal or sub-repo name>
 e.g:  git submodule add git@github.com:samuelcj/GitVersionControl.git GitVersionControl
 
+31. To know thr remote repo that your local is connected to.
+=> git remote get-url origin
 
+32. 
