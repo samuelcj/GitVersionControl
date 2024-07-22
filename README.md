@@ -4,7 +4,7 @@
 
 ## DESCRIPTION:
 
-This repository was made to capture some of the important git commands and concept used for git version control. Some of these commands are foundin the git_commands.txt file. ## HAPPY SURVEY
+This repository was made to capture some of the important git commands and concept used for git version control. Some of these commands are foundin the git_commands.txt file. **HAPPY SURVEY.**
 
 **Below are some important git links/url and commands that can be referenced to get started with git.**
 
