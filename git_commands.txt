@@ -8,7 +8,7 @@ Here are commands utilized in git version control.
 
 3. git status: This tells you your branch, what has changed and the whole state.
 
-4. To have your remot repo added to your local repo
+4. To have your remote repo added to your local repo
 => git remote add origin https://gitlab.com/samuelcj310/my-project.git
 
 5. To change branch
@@ -20,7 +20,7 @@ Here are commands utilized in git version control.
 7. To commit changes.      (HEAD in git simply means the last commit)
 => git commit -m <commit message>
 
-8. To remove a file from commited files
+8. To remove a file from committed files
 => git rm --cached <file name>
 
 9. To see local repository history
@@ -29,7 +29,7 @@ Here are commands utilized in git version control.
 10. To rename a branch
 => git branch -m <name>
 
-11. To create a new local repositoy
+11. To create a new local repository
 => git init
 
 12. To add your username for tracking of commit, push and pull.
@@ -49,7 +49,7 @@ Here are commands utilized in git version control.
 
 17. from web IDE and Bash: When there are changes from different source on the same line or file or part of code. It causes a MERGE CONFLICT that needs to be fixed using
 => git push -r ##(rebase)
-=> then edid the marked conflict session then resolve conflict (This is done in editor)
+=> then edit the marked conflict session then resolve conflict (This is done in editor)
 
 then:
 18. To continue after merge conflict has been resolved.
@@ -67,7 +67,7 @@ Other available options can be:
 20. For files already being tracked this wont have effect. So to remove them from cached files we run the cache command below
 => git rm -r --cached <file or folder names>
 
-21. To save work in progress for a brnch and save for later. So we can easily checkout and return back to work.
+21. To save work in progress for a branch and save for later. So we can easily checkout and return back to work.
 => git stash >>>>> to save changes in progress
 => git stash pop >>>>>>>> to retrieve the saved changes.
 
@@ -81,7 +81,7 @@ Other available options can be:
 24. To  rever a git commit but not delete the changes made. i.e we can still see modified before the commit was made.
 => git reset HEAD~1   OR  => git reset --soft HEAD~1
 
-25. To merge a new commit into an old commit. i.e creating a commit inside an already previous last one.
+25. To merge a new commit into an old commit. i.e. creating a commit inside an already previous last one.
 => git commit --amend
 
 26. To revert a commit that has already been pushed to the remote repository. We combine two commands
@@ -90,10 +90,10 @@ Other available options can be:
 	2. Then we push it to the remote with a force
 => git push --force
 
-27. To not delete a previous commit but just overide it we use the overide commit. It is a re-verse kind of commit
+27. To not delete a previous commit but just override it we use the override commit. It is a re-verse kind of commit
 => git revert <commit hash>    >>>>>>>>>> Then you push to the remote so it takes effect.
 
-28. To merge commits so that two branches eitheir main or not can be in sync. Just like merge request. We use:
+28. To merge commits so that two branches either main or not can be in sync. Just like merge request. We use:
 => git merge <origin/source branch name>   >>>>>>>>> Note, you are to run this command from the destination branch
 
 29. To clone a repo now with http using token we use this command.
